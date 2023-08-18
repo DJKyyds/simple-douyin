@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c573e332-cd3a-41d6-891d-281450698c04" name="变更" comment="完善功能" />
+    <list default="true" id="c573e332-cd3a-41d6-891d-281450698c04" name="变更" comment="完善功能">
+      <change beforePath="$PROJECT_DIR$/resources/gin.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/gin.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <recent name="H:\tiktok\go" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build tiktok/go">
+  <component name="RunManager" selected="Go Test.TestTest in tiktok/go/util">
     <configuration name="tiktok.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$USER_HOME$/Desktop/tiktok.sql" />
       <script-mode>FILE</script-mode>
@@ -109,39 +111,41 @@
       <filePath value="$PROJECT_DIR$/go/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="tiktok/go/model 中的 TestCancelComment" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInitSensitiveFilter2 in tiktok/go/util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tiktok" />
-      <working_directory value="$PROJECT_DIR$/go/model" />
+      <working_directory value="$PROJECT_DIR$/go/util" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="tiktok/go/model" />
+      <package value="tiktok/go/util" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCancelComment\E$" />
+      <pattern value="^\QTestInitSensitiveFilter2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="tiktok/go/model 中的 TestQueryIsExitsVideoId" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTest in tiktok/go/util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tiktok" />
-      <working_directory value="$PROJECT_DIR$/go/model" />
+      <working_directory value="$PROJECT_DIR$/go/util" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="tiktok/go/model" />
+      <package value="tiktok/go/util" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestQueryIsExitsVideoId\E$" />
+      <pattern value="^\QTestTest\E$" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Database Script.tiktok.sql" />
       <item itemvalue="Go Build.go build redis.go" />
       <item itemvalue="Go Build.go build tiktok/go" />
-      <item itemvalue="Go Test.tiktok/go/model 中的 TestCancelComment" />
-      <item itemvalue="Go Test.tiktok/go/model 中的 TestQueryIsExitsVideoId" />
+      <item itemvalue="Go Test.TestInitSensitiveFilter2 in tiktok/go/util" />
+      <item itemvalue="Go Test.TestTest in tiktok/go/util" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTest in tiktok/go/util" />
+        <item itemvalue="Go Test.TestInitSensitiveFilter2 in tiktok/go/util" />
         <item itemvalue="Go Build.go build tiktok/go" />
         <item itemvalue="Database Script.tiktok.sql" />
         <item itemvalue="Go Build.go build redis.go" />
@@ -250,6 +254,11 @@
           <url>file://$PROJECT_DIR$/go/service/videoService.go</url>
           <line>273</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go/util/filter.go</url>
+          <line>51</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
