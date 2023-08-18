@@ -6,7 +6,7 @@ const SecretId = "xxxxxxxxxxxxxxxxx"
 
 // 替换Key
 
-const SecretKey = "ZCxhN9mDPM5f7MSK1Yt0scsyxnYBf4Nf"
+const SecretKey = "xxxxxxxxxxxx"
 
 // 替换你的oss的域名
 
