@@ -2,16 +2,16 @@ package config
 
 // 替换Id
 
-const SecretId = "xxxxxxxxxxxxxxxxx"
+const SecretId = "xxxxxxx"
 
 // 替换Key
 
-const SecretKey = "xxxxxxxxxxxx"
+const SecretKey = "xxxxxx"
 
 // 替换你的oss的域名
 
-const CosUrl = "https://lostandfound-1306308561.cos.ap-chengdu.myqcloud.com"
+const CosUrl = "xxxxxx"
 
 const ReplaceSuffix = ".jpg"
 
-const CosUrlAnd = "https://lostandfound-1306308561.cos.ap-chengdu.myqcloud.com/"
+const CosUrlAnd = "xxxxxx"
